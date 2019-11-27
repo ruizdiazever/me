@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+{% block background %}{% static 'core/img/about.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1 class= display-4>Biografia</h1>
+<span class="subheading">Soy apasionado de la tecnologia y el diseño.</span>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading">Ever Ruiz Diaz</h2>
+            <p>Hola, tengo 26 años, vivo en Roma y soy estudiante y desarrollador de software, especializado en Django by Python. Siempre me capacito y estudio las ultimas tecnologias y actualmente hago uso de Bootstrap para mejorar aspectos de diseño & acelerar el diseño.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

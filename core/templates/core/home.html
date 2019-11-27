@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+
+
+{% block title %}Home{% endblock %}
+
+{% block background %}{% static 'core/img/contact.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1 class= display-4>Ever Ruiz Diaz</h1>
+    <span class="subheading">Estudiante de Software, especializado en desarrollo web.</span>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>Bienvenido, puedes tambien acceder mis otros trabajos en mis otras webs:</p>
+            <br>
+            <div style="text-align: center;">
+                <a href="#"><h1 class="display-4">Ligth</h1></a>
+                <a href="#"><h1 class="display-4">Hannah</h1></a>
+            </div>
+            <br>
+        </div>
+    </div>
+</div> {% endblock %}
+
