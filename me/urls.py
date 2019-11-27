@@ -21,11 +21,11 @@ from portfolio import views as portfolio_views
 from django.conf import settings # Para poder manipular el setting.py
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('home/', core_views.home, name='home'),
+    path('', core_views.home, name='home'),
     path('about/', core_views.about, name='about'),
     path('portfolio/', portfolio_views.portfolio, name='portfolio'),
     path('contact/', core_views.contact, name='contact'),
+    path('admin/', admin.site.urls),
 ]
 
 # En modo DEBUG importamos las URLs estaticas de Django 
