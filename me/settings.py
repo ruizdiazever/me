@@ -25,7 +25,7 @@ SECRET_KEY = ')e+%eq@q(w!-9$@fs&v)jbwtw*_dwgkqp$d94*5==8by_!r6un'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['sinconmasver.pythonanywhere.com','localhost']
+ALLOWED_HOSTS = ['sinconmasver.pythonanywhere.com','localhost','127.0.0.1']
 
 
 # Application definition
