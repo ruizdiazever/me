@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')e+%eq@q(w!-9$@fs&v)jbwtw*_dwgkqp$d94*5==8by_!r6un'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sinconmasver.pythonanywhere.com','localhost']
 
 
 # Application definition
