@@ -7,7 +7,7 @@
 
 {% block headers %}
 <h1 class= display-4>Portafolio</h1>
-<span class="subheading">Proyectos terminados y en desarrollo.</span>
+<span class="subheading">Mis proyectos</span>
 {% endblock %}
 
 
@@ -20,6 +20,7 @@
             </div>
             <div class="col-lg-7 col-md-8">
                 <h2 class="section-heading title">{{project.title}}</h2>
+                <p style="color: green;">{{project.state}}</p>
                 <p>{{project.description}}</p>
                 {% if project.link %}
                     <p><a target="blank" href="{{project.link}}">Mas información.</a></p>
@@ -28,4 +29,6 @@
         </div>
     </div>
     {% endfor %}
+
+    <hr>
 {% endblock %}
