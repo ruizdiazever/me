@@ -1,6 +1,6 @@
 # Portfolio
 **Ever Ruiz Diaz**, software student, web development. http://sinconmasver.pythonanywhere.com/
-Primera versión de mi página personal, está diseñada y desarrollada con:
+- Primera versión de mi página personal, está diseñada y desarrollada con:
 
 >- **Python 3.7**
 >- **Django 3.0**
