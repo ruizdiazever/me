@@ -1,9 +1,9 @@
 # Portfolio
 Primera versión de mi página personal, está diseñada y desarrollada con:
 
->- **Python 3.7**
->- **Django 3.0**
->- **SQLite3**
+>- **Python 3.8.2**
+>- **Django 3.0.4**
+>- **PostgreSQL 12.2**
 >- HTML5 
 >- CSS3
 >- Bootstrap 4 
