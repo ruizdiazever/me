@@ -15,7 +15,7 @@ class Project(models.Model):
     class Meta:
         verbose_name = "proyecto"
         verbose_name_plural = "proyectos"
-        ordering = ["created"] # "-created" invierte la muestra, metodo de lista
+        ordering = ["-created"] # "-created" invierte la muestra, metodo de lista
 
     # Metodo reservado lleva doble guionbajo en ambos lados..    
     def __str__(self): # Esto es para que devuelva una cadena & no un objets
