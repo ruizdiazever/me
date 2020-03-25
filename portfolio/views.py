@@ -1,10 +1,7 @@
 from django.shortcuts import render
-
-# Create your views here.
-
-
 from .models import Project
 
+# Create your views here.
 def portfolio(request):
     projects = Project.objects.all()
     print(type(projects))
