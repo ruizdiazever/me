@@ -6,8 +6,8 @@
 {% block background %}{% static 'core/img/idea.jpg' %}{% endblock %}
 
 {% block headers %}
-<h1 class= display-4>Portafolio</h1>
-<span class="subheading">Mis proyectos</span>
+<h1 class= display-4>Projects</h1>
+<span class="subheading">Some of my completed projects</span>
 {% endblock %}
 
 
@@ -23,7 +23,7 @@
                 <p style="color: green;">{{project.state}}</p>
                 <p>{{project.description}}</p>
                 {% if project.link %}
-                    <p><a target="blank" href="{{project.link}}">Mas información.</a></p>
+                    <p><a target="blank" href="{{project.link}}">More info</a></p>
                 {% endif %}
             </div>
         </div>
