@@ -1,0 +1,53 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block background %}{% static 'core/img/contact.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1 class= display-4>Hi, I'm Ever</h1>
+    <span class="subheading">Software Student</span>
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <!-- <p>
+                Hola, bienvenido a mi portfolio, aca podras acceder a todos
+                mis proyectos publicados y en desarrollo, además de tener
+                acceso al código fuente de cada una de ellas para que podamos aportar
+                y colaborar con el código abierto.
+            </p>
+            <hr> -->
+            <div style="text-align: center;">
+                <!-- <a style="color: #f74843;" target="blank" href="https://github.com/ruizdiazever/fire"><h1 class="display-4">Off Fire</h1></a>
+                <p style="color: green;">En desarrollo.</p>
+                <p>Off Fire, apagamos llamas.</p>
+                <br> -->
+
+                <a style="color: #f74843;" target="blank" href="{% static 'core/doc/ever.pdf' %}"><h1 class="display-4">Curriculum</h1></a>
+                <p style="color: green;">Portable Document Format</p>
+                <p>Summary of my academic experience and knowledge.</p>
+                <br>
+
+<!--                 <a style="color: #f74843;" target="blank" href="https://github.com/ruizdiazever/hannah"><h1 class="display-4">Hannah</h1></a>
+                <p style="color: green;">En desarrollo.</p>
+                <p>Hannah, We CREATE websites for ARTISTS. </p>
+                <br>
+-->
+<!--                 <a style="color: #f74843;" target="blank" href="https://github.com/ruizdiazever/android_rerum"><h1 class="display-4">Rerum</h1></a>
+                <p style="color: green;">Inactivo.</p>
+                <p>Rerum, aplicacion Android relacionado a eventos culturales.</p>
+                <br> -->
+
+                <a style="color: #f74843;" target="blank" href="http://everdev.pythonanywhere.com/"><h1 class="display-4">Light</h1></a>
+                <p style="color: green;">Activo</p>
+                <p>Light, personal photography page.</p>
+                <hr>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}
