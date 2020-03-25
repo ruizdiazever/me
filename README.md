@@ -1,17 +1,17 @@
 # Portfolio
-Primera versión de mi página personal, está diseñada y desarrollada con:
+First version of my personal page, is designed and developed with::
 
 >- **Python 3.8.2**
 >- **Django 3.0.4**
 >- **PostgreSQL 12.2**
->- HTML5 
+>- HTML5
 >- CSS3
->- Bootstrap 4 
->- JavaScript 
+>- Bootstrap 4
+>- JavaScript
 >- JQuery
 
-**Como características tiene:** 
-- Inyeccion dinámica de templates.
-- Carga de proyectos en "Portfolio" con BBDD a traves del del administrador de Django.
+**As features it has:** 
+- Dynamic template injection.
+- Loading of projects in "Portfolio" with database through Django's administrator.
 
-**Ever Ruiz Diaz**, software student, web development. http://sinconmasver.pythonanywhere.com/
+**Ever Ruiz Diaz**, *Software Student* - [This web](http://sinconmasver.pythonanywhere.com/)
