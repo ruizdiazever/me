@@ -21,7 +21,7 @@
             <div class="col-lg-7 col-md-8">
                 <h2 class="section-heading title">{{project.title}}</h2>
                 <p style="color: green;">{{project.state}}</p>
-                <p>{{project.description}}</p>
+                <p>{{project.description|linebreaks}}</p>
                 {% if project.link %}
                     <p><a target="blank" href="{{project.link}}">More info</a></p>
                 {% endif %}
