@@ -25,7 +25,7 @@ SECRET_KEY = ')e+%eq@q(w!-9$@fs&v)jbwtw*_dwgkqp$d94*5==8by_!r6un'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sinconmasver.pythonanywhere.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['everdev.pythonanywhere.com','localhost','127.0.0.1']
 
 
 # Application definition
@@ -77,19 +77,19 @@ WSGI_APPLICATION = 'me.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    #'default': {
-    #    'ENGINE': 'django.db.backends.sqlite3',
-    #   'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    #}
-
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'me',
-        'USER': 'postgres',
-        'PASSWORD': '620792',
-        'HOST': 'localhost',
-        'PORT': '', #5432
+        'ENGINE': 'django.db.backends.sqlite3',
+       'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+
+    #'default': {
+    #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #    'NAME': 'me',
+    #    'USER': 'postgres',
+    #    'PASSWORD': '620792',
+    #    'HOST': 'localhost',
+    #    'PORT': '5432', #5432
+    #}
 }
 
 
